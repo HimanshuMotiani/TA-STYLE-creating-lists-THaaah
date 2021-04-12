@@ -64,6 +64,9 @@ table {
     justify-content: flex-start;
     align-items: center;
 }
+.stretch{
+    align-items: stretch;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -84,6 +87,9 @@ body{
     text-decoration: none;
     margin-right:40px;
 }
+.nav-links{
+    list-style: none;
+} 
 main{
     background-color: #d4cea7;
     padding: 20px 0;
@@ -94,7 +100,7 @@ main{
     background-color: #1f5a79;
     color:#d4cea7;
     font-size: 24px;
-    height: 500px;
+
     padding-top: 20px;
     margin: 40px 0;
     box-shadow:  5px 10px 10px black;  ;
@@ -102,16 +108,19 @@ main{
 .col .list-check{
     line-height: 2;
 }
-.col ul, .col li{
-padding-left: 40px;
+ol,ul{
+    padding-left: 50px;
 }
-.list{
+
+ol{
     list-style-type: decimal;
-    list-style-position: inside;
+
 }
-.unordered-list{
+ul{
     list-style-type:disc;
-    list-style-position: inside;
+}
+.list-check{
+    padding-left: 50px;
 }
 .sub-order{
     list-style-type: decimal;
@@ -119,9 +128,13 @@ padding-left: 40px;
 .sub-sub-unorder{
     list-style-type:square ;
 }
+.list-check{
+list-style: none;
+}
 .list-check i{
     color: #000;
     padding-right: 10px;
+    
 }
 .questions{
     margin: 30px 0;
@@ -146,6 +159,7 @@ dd{
 .nav-foot-links{
     font-size: 20px;
     padding: 50px 0;
+    list-style: none;
 }
 .nav-foot-links a{
     color: white;
